@@ -1,0 +1,1 @@
+Firefox Minimal Responsive Theme
