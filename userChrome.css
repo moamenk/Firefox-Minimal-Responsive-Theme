@@ -11,7 +11,7 @@
     opacity: 0 !important;
     transform: scale(.85, .85) !important;
     pointer-events: none !important;
-    transition: margin-left 250ms var(--animation-easing-function), opacity 250ms var(--animation-easing-function), transform 250ms var(--animation-easing-function) !important;
+    transition: margin-left 100ms var(--animation-easing-function), opacity 100ms var(--animation-easing-function), transform 100ms var(--animation-easing-function) !important;
  transition-delay: 0s;
 }
 
