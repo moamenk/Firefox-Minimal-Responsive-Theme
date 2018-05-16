@@ -24,6 +24,38 @@ pointer-events: auto !important;
 }
 
 
+/* auto collapse nav bar height when in stealth mode (not active), kinda jumpy and annoying after a while so let's just comment it for now */
+
+/*
+#nav-bar {
+	height: 30px !important;
+    transition: all 300ms var(--animation-easing-function) !important;
+}
+
+:root:not([customizing]) :hover > #nav-bar,
+:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar {
+height: 35px !important;
+}
+*/
+
+/* url bar text shrinks when in "stealth mode" */
+#nav-bar #urlbar {
+font-size: 0.85em !important;
+    transition: all 100ms var(--animation-easing-function) !important;
+}
+
+:root:not([customizing]) :hover > #nav-bar #urlbar,
+:root:not([customizing]) #navigator-toolbox:focus-within #nav-bar #urlbar {
+font-size: 1.2em !important;
+}
+
+
+/* some experimentation with expanding tab on hover to see the title better, it's kinda stupid but I was just messing around, could be something useful in the future */
+.tabbrowser-tab:not([selected]):hover { 
+   min-width: 300px !important;
+   transition: min-width 150ms var(--animation-easing-function) 2s !important;
+}
+
 
 /* random style tweaks I like */
 /*
