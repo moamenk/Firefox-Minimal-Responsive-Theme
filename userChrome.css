@@ -5,7 +5,6 @@
  */
 
 
-#nav-bar toolbarbutton
 :root:not([customizing]) #nav-bar toolbarbutton
  {
     margin-left: -28px !important;
@@ -14,8 +13,6 @@
     pointer-events: none !important;
     transition: all 100ms var(--animation-easing-function) !important;
 }
-
-
 
 :root:not([customizing]) :hover > #nav-bar toolbarbutton,
 :root:not([customizing]) #navigator-toolbox:focus-within #nav-bar toolbarbutton,
