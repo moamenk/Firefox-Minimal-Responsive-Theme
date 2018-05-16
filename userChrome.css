@@ -6,6 +6,7 @@
 
 
 #nav-bar toolbarbutton
+:root:not([customizing]) #nav-bar toolbarbutton
  {
     margin-left: -28px !important;
     opacity: 0 !important;
